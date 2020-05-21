@@ -5,5 +5,5 @@ COPY config/server.env /config/
 
 RUN mkdir -p /my-special-folder
 
-RUN chown 0 /my-special-folder
+RUN chown root:root /my-special-folder
 
