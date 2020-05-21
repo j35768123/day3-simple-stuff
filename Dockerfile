@@ -5,9 +5,3 @@ COPY config/server.env /config/
 
 RUN mkdir -p /my-special-folder
 
-RUN chown newuser /my-special-folder
-
-USER newuser
-
-WORKDIR /my-special-folder
-
