@@ -7,7 +7,3 @@ RUN mkdir -pv /my-special-folder
 
 RUN chown root /my-special-folder
 
-USER root
-
-WORKDIR /my-special-folder
-
