@@ -3,4 +3,7 @@ COPY target/simple-stuff.war /config/dropins/
 COPY config/server.xml /config/
 COPY config/server.env /config/
 
+USER root
+
+RUN mkdir -p /my-special-folder
 
