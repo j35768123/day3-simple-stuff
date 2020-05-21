@@ -7,3 +7,5 @@ USER root
 
 RUN mkdir -p /my-special-folder
 
+COPY Dockerfile /my-special-folder/
+
